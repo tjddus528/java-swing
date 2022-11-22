@@ -152,8 +152,8 @@ class DrawingLinePracticePanel extends JPanel implements KeyListener, MouseListe
 	}
 }
 
-public class DrawLine extends JFrame {
-	DrawLine() {
+public class DrawShape extends JFrame {
+	DrawShape() {
 		setSize(500, 500);
 		setTitle("Drawing Practice");
 
@@ -165,7 +165,7 @@ public class DrawLine extends JFrame {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		new DrawLine();
+		new DrawShape();
 
 	}
 
